@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<title>Skillfactory_C2_HW</title>
+</head>
+<body>
+	<main class="container">
+		<div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded shadow">
+			<img class="cdp-img mr-3" src="../img/png-cat-dog-parrot.png" alt="cat-dog-parrot">
+			<div class="lh-100">
+				<h3 class="text-white mb-0 lh-100">Кошки против собак против попугаев</h3>
+				<small>Анонимное голосование</small>
+			</div>
+		</div>
+		<div class="my-3 p-3 bg-white rounded shadow">
+			<h4 class="border-bottom border-gray pb-2 mb-0">Результаты голосования</h3>
+			<div class="media flex-column pt-3">
+				<label class="mb-0" for="cats-progress">Кошки</label>
+				<div id="cats-progress" class="progress m-3">
+				  <div id="best-progress-bar" class="cats-bar progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+			</div>
+			<div class="media flex-column pt-3">
+				<label class="mb-0" for="dogs-progress">Собаки</label>
+				<div id="dogs-progress" class="progress m-3">
+				  <div id="best-progress-bar" class="dogs-bar progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+			</div>
+			<div class="media flex-column pt-3">
+				<label class="mb-0" for="parrots-progress">Попугаи</label>
+				<div id="parrots-progress" class="progress m-3">
+				  <div id="best-progress-bar" class="parrots-bar progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+			</div>
+		</div>
+
+	</main>
+
+	<script src="../src/jquery.min.js"></script>
+	<script src="../src/bootstrap.bundle.min.js"></script>
+	<script src="../src/results-script.js"></script>
+</body>
+</html>
