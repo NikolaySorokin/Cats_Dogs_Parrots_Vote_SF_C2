@@ -33,7 +33,7 @@ es.onmessage = message => {
 	catsProgress.css('width', `${parseInt(catsVotes)/parseInt(maxVotes)*90}%`);
 	dogsProgress.css('width', `${parseInt(dogsVotes)/parseInt(maxVotes)*90}%`);
 	parrotsProgress.css('width', `${parseInt(parrotsVotes)/parseInt(maxVotes)*90}%`);
-	es.close();
+	//es.close(); 
 }
 
 
