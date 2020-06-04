@@ -14,9 +14,6 @@ const header = new Headers({
 
 const baseUrl = new URL("https://sf-pyw.mosyag.in");
 const resultsUrl = new URL("/sse/vote/stats", baseUrl);
-const catsUrl = new URL("/sse/vote/cats", baseUrl);
-const dogsUrl = new URL("/sse/vote/dogs", baseUrl);
-const parrotsURL = new URL("/sse/vote/parrots", baseUrl);
 
 const es = new EventSource(resultsUrl, header);
 
